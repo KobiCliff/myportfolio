@@ -166,6 +166,7 @@ nav {
     font-weight: 600;
     margin: 0 12px;
     transition: all .3s;
+    text-decoration: none;
 }
 .btn:hover {
     transform: translateY(-5px);
