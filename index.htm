@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tobias Obioma - Full Stack Developer</title>
+    <meta name="description" content="Tobias Obioma - Full Stack & Web3 Developer | Community Builder | Game Dev" />
+    <link rel="icon" href="/public/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="/public/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5b68202dbb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="public/styles/style.css">
+</head>
+<body data-theme="light">
+<nav>
+    <div class="container nav-content">
+        <a href="#" class="logo">
+            <img src="public/images/logo.png" alt="Tobitec Logo">
+        </a>
+
+        <div class="mobile-controls"> 
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+            <button class="hamburger" id="hamburger">☰</button>
+        </div>
+        
+        <div class="nav-links" id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>    
+</nav>
+
+<section id="home" class="hero">
+    <div class="container hero-content">
+        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800" alt="Tobi T">
+        <h1>Tobias Obioma</h1>
+        <p class="title">Full Stack & Web3 Developer • Community Builder • Writer</p>
+        <p style="font-size: 1.4rem; margin: 1.5rem o;">Turning ideas into reality with cdde, community & creativity.</p>
+        <a href="#contact" class="btn">Let's talk</a>
+        <a href="resume.pdf" class="btn btn-outline" download>Download CV</a>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p>
+            Hey, I'm Tobias (Tobitec) — a passionate full-stack developer and blockchain enthusiast with a diverse background in tech, gaming, crypto, and community building. <br><br>
+            From interning at De-Golojan Technologies (Where I earned the title Senior Software Programmer) to moderating global Web3 communities, testing AAA games, and now leading social media + community for Raven Illusion Studio — I bring a unique mix of technical depth and human connection to every project. <br><br>
+            Currently diving deep into Web3 development, game dev (Unreal Engine), and crafting engaging content in the crypto space. I love building things that people actually use and love. 
+        </p>
+    </div>
+</section>
+
+<section id="experience" style="background: var(--card);">
+    <div class="container">
+        <h2 class="section-title">My Journey</h2>
+        <div class="timeline">
+            <div class="timeline-item right visible">
+                <div class="timeline-content">
+                    <h3>Community Manager & Social Media Lead</h3>
+                    <h4>Raven Illusion Studio • 2024 - Present</h4>
+                    <p>Grow and engage gaming community across Discord, X, Instagram & TikTok. Create viral content, manage events, and help launch titles like <strong>Unbroken</strong>.</p>
+                </div>
+            </div>
+            <div class="timeline-item left visible">
+                <div class="timeline-content">
+                    <h3>Game Tester & Community Moderator</h3>
+                    <h4>Hammer Games Studio & RepuliK.gg  • 2023 - 2024</h4>
+                    <p>Tested gameplay mechanics, reported bugs, moderated global Discord communities, wrote patch notes, and helped shape player experience for Web3 gaming platforms.</p>
+                </div>
+            </div>
+            <div class="timeline-item right visible">
+                <div class="timeline-content">
+                    <h3>Senior Software Programmer (Certified)</h3>
+                    <h4>De-Golojan Technologies  • Internship 2022 - 2023</h4>
+                    <p>Full-stack development training. Built real client projects using React, Node.js, MongoDB. Graduated with Senior Programmer certification.</p>
+                </div>
+            </div>
+            <div class="timeline-item left visible">
+                <div class="timeline-content">
+                    <h3>Independent Developer & Crypto Writer</h3>
+                    <h4>Freelance  • 2022 - Present</h4>
+                    <p>Built personal projects, bots, landing pages, and wrote in-depth threads & articles about Web3, DeFi, NFTs, and blockchain gaming. Lead my personal crypto community.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" style="background: var(--bg);">
+    <div class="container">
+        <h2 class="section-title">Skills</h2>
+        <div style="display: grid; grid-template-columns: repeat(auto-full,minmax(140px,1fr)); gap:16px; max-width: 900px; margin: 0 auto;">
+            <div class="skill">JavaScript / Typescript </div>
+            <div class="skill">React / Next.js</div>
+            <div class="skill">Node.js</div>
+            <div class="skill">MongoDB</div>
+            <div class="skill">Web3.js / Ethers.js</div>
+            <div class="skill">Solidity Basics</div>
+            <div class="skill">Tailwind CSS</div>
+            <div class="skill">Community Building</div>
+            <div class="skill">Content Writer</div>
+            <div class="skill">Game Testing</div>
+            <div class="skill">Unreal Engine (Learning)</div>
+            <div class="skill">Figma</div>
+        </div>
+    </div>
+</section>
+
+<section id="portfolio">
+    <div class="container">
+        <h2 class="section-title">Portfolio & Projects</h2>
+        <div class="carousel">
+            <button class="prev"><</button>
+            <div class="carousel-inner" id="carouselInner"> 
+                <!-- You will replace these with your real Vercel links soon -->
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1559028005-61590b70886a?w=1200" alt="Project">
+                    <h3>Web3 Dashboard Concept</h3>
+                    <p>Coming soon — Personal crypto portfolio tracker</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live</a>
+                        <a href="#" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1559028005-61590b70886a?w=1200" alt="Project">
+                    <h3>Web3 Concept</h3>
+                    <p>Coming soon</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live</a>
+                        <a href="#" target="_blank">Code</a>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="https://images.unsplash.com/photo-1559028005-61590b70886a?w=1200" alt="Project">
+                    <h3>Web3 Dashboard </h3>
+                    <p>Coming soon</p>
+                    <div class="project-links">
+                        <a href="#" target="_blank">Live</a>
+                        <a href="#" target="_blank">Code</a>
+                    </div>
+                </div>
+                <!-- Add more -->
+            </div>
+            <button class="next">></button>
+            <div class="dots" id="dots"></div>
+        </div>
+    </div>
+</section>
+
+<section id="contact" style="background: var(--card);">
+    <div class="container" style="text-align: center;">
+        <h2 class="section-title">Let's Build Something</h2>
+        <div class="social">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/yourprofile" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://x.com/kcloudy5" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="mailto:tobiasmichael2205@gmail.com" target="_blank"><i class="fa-regular fa-envelope"></i></a>
+        </div>
+        <p style="margin-top: 30px; font-size: 1.3rem; color:var(--gray);">tobiasmichael2205@gmail.com • Always open to interesting projects</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Tobias Obioma • Tobitec. Built with code, coffee and passion</p>
+    </div>
+</footer>
+
+<script>
+    // ====== DARK MODE TOGGLE ======
+const themeToggle = document.getElementById('themeToggle');
+const body = document.body;
+
+// Load saved theme 
+const savedTheme = localStorage.getItem('theme');
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
+
+if (savedTheme === 'dark' || (!savedTheme && prefersDark)) {
+    body.setAttribute('dark-theme', 'dark');
+    themeToggle.innerHTML = '<i class="fa-regular fa-sun"></i>';
+} else {
+    body.setAttribute('data-theme', 'light');
+    themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+}
+
+themeToggle.addEventListener('click', () => {
+    if (body.getAttribute('data-theme') === 'dark') {
+        body.setAttribute('data-theme', 'light');
+        themeToggle.innerHTML = '<i class="fa-solid fa-moon"></i>';
+        localStorage.setItem('theme', 'light');
+    } else {
+        body.setAttribute('data-theme', 'dark');
+        themeToggle.innerHTML = '<i class="fa-regular fa-sun"></i>';
+        localStorage.setItem('theme', 'dark');
+    }
+});
+
+// Hamburger menu
+document.getElementById('hamburger').addEventListener('click', () => {
+    document.getElementById('navLinks').classList.toggle('active');
+});
+
+// Close menu when clicking a link (mobile)
+document.querySelectorAll('.nav-links a').forEach(link => {
+    link.addEventListener('click', () => {
+        if (window.innerWidth <= 768) {
+            document.getElementById('navLinks').classList.remove('active')
+        }
+    });
+});
+
+// ====== CAROUSEL =======
+let current = 0;
+const inner = document.getElementById('carouselInner');
+const slides = inner.children.length;
+const dotsContainer = document.getElementById('dots');
+
+// Create dots
+for (let i = 0; i < slides; i++) {
+    const dot = document.createElement('span');
+    dot.classList.add('dot');
+    if (i === 0) dot.classList.add('active');
+    dot.dataset.index = i;
+    dotsContainer.appendChild(dot);
+}
+
+const dots = document.querySelectorAll('.dot');
+
+function goToSlide(n) {
+    current = (n + slides) % slides;
+    inner.style.transform = `translateX(-${current * 100}%)`;
+}
+
+document.querySelector('.next').addEventListener('click', () => goToSlide(current + 1));
+document.querySelector('.prev').addEventListener('click', () => goToSlide(current - 1));
+dots.forEach(dot => dot.addEventListener('click', () => goToSlide(+dot.dataset.index)));
+
+// Timeline animation
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('visible');
+    });
+}, { threshold: 0.2 });
+    document.querySelectorAll('.timeline-item').forEach(item => observer.observe(item));
+</script>
+</body>
+</html>
