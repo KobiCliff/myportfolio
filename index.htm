@@ -118,41 +118,23 @@
     <div class="container">
         <h2 class="section-title">Portfolio & Projects</h2>
         <div class="carousel">
-            <button class="prev"><</button>
-            <div class="carousel-inner" id="carouselInner"> 
-                <!-- You will replace these with your real Vercel links soon -->
+            <button class="prev">←</button>
+            <div class="carousel-inner" id="carouselInner">
                 <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1559028005-61590b70886a?w=1200" alt="Project">
-                    <h3>Web3 Dashboard Concept</h3>
-                    <p>Coming soon — Personal crypto portfolio tracker</p>
+                    <div class="preview-wrapper" onclick="window.open('https://belle-epoque-eta.vercel.app', '_blank')">
+                        <iframe src="https://belle-epoque-eta.vercel.app"
+                        class="preview-iframe" title="La Belle Époque"></iframe>
+                        <div class="preview-overlay"></div>
+                        <!-- <div class="preview-label">Click to open full site →</div> -->
+                    </div>
+                    <h3 class="project-title">La Belle Époque</h3>
+                    <p class="project-desc">Luxury French Restaurant • Next.js 16 + Tailwind v4</p>
                     <div class="project-links">
-                        <a href="#" target="_blank">Live</a>
-                        <a href="#" target="_blank">Code</a>
+                        <a href="https://belle-epoque-eta.vercel.app" target="_blank" style="background: var(--primary);">View Live Site</a>
                     </div>
                 </div>
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1559028005-61590b70886a?w=1200" alt="Project">
-                    <h3>Web3 Concept</h3>
-                    <p>Coming soon</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">Live</a>
-                        <a href="#" target="_blank">Code</a>
-                    </div>
-                </div>
-                <div class="slide">
-                    <img src="https://images.unsplash.com/photo-1559028005-61590b70886a?w=1200" alt="Project">
-                    <h3>Web3 Dashboard </h3>
-                    <p>Coming soon</p>
-                    <div class="project-links">
-                        <a href="#" target="_blank">Live</a>
-                        <a href="#" target="_blank">Code</a>
-                    </div>
-                </div>
-                <!-- Add more -->
-            </div>
-            <button class="next">></button>
+            <button class="next">→</button>
             <div class="dots" id="dots"></div>
-        </div>
     </div>
 </section>
 
